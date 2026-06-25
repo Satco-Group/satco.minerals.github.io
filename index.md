@@ -69,7 +69,7 @@ title: SATCO | Global Commodities & Supply Chain Partner
 
 <!-- 1. Navigation Menu -->
 <nav class="custom-nav">
-  <a href="#">Home</a>
+  <a href="index.html">Home</a>
   <a href="#">About Us</a>
   <div class="dropdown">
     <a href="#" class="dropbtn">Commodities ▾</a>
@@ -84,16 +84,16 @@ title: SATCO | Global Commodities & Supply Chain Partner
     </div>
   </div>
   <a href="#">Logistics Consulting</a>
-  <a href="#">Contact Us</a>
+  <a href="contact.html">Contact Us</a>
 </nav>
 
 <!-- 2. Hero Introduction -->
 <div style="text-align: center; margin: 40px 0;">
   <p style="font-size: 1.2em; color: #555;">
-    Expertise in International Logistics, Commodity Sourcing, and Strategic Consulting. <br>
+    Expert in International Logistics, Commodity Sourcing, and Strategic Consulting. <br>
     We deliver reliable commodities directly to your destination with professional logistics management.
   </p>
-  <a href="#" class="btn" style="background-color: #cc7a00; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; display: inline-block; margin-top: 15px;">Request a Quote</a>
+  <a href="contact.html" class="btn" style="background-color: #cc7a00; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; display: inline-block; margin-top: 15px;">Request a Quote</a>
 </div>
 
 <hr>
