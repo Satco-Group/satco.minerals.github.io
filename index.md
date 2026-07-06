@@ -5,7 +5,7 @@ layout: default
 <style>
   .page-header {
     background-image: url('Banner.png') !important;
-    background-size: cover !important;
+    background-size: 100% 100% !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
     background-color: #021323 !important;
@@ -13,7 +13,6 @@ layout: default
     padding: 0 !important;
     margin: 0 !important;
     width: 100% !important;
-    max-width: none !important;
   }
 
   .main-content {
