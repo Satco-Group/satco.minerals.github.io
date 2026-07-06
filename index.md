@@ -5,11 +5,11 @@ layout: default
 <style>
   .page-header {
     background-image: url('Banner.png') !important;
-    background-size: cover !important;
+    background-size: 100% 100% !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
-    background-color: #021323 !important;
-    min-height: 350px !important;
+    min-height: 200px !important;
+    padding: 2rem 1rem !important;
   }
   
   .project-name,
@@ -29,8 +29,8 @@ Welcome to **SATCO**. We bridge the gap between global industrial demand and rel
 At SATCO, we believe that a robust supply chain is the backbone of industrial growth. Our commitment is to provide seamless logistical solutions and consistent product quality, ensuring your projects stay on track and meet the highest industry standards.
 
 **Why Choose Us?**
-*   **Reliability:** Consistent supply of high-grade industrial commodities.
-*   **Logistics Excellence:** Integrated transport and supply chain management.
-*   **Global Reach:** Serving markets with precision and efficiency.
+* **Reliability:** Consistent supply of high-grade industrial commodities.
+* **Logistics Excellence:** Integrated transport and supply chain management.
+* **Global Reach:** Serving markets with precision and efficiency.
 
 Partner with us to optimize your supply chain and drive your business forward.
