@@ -5,11 +5,12 @@ layout: default
 <style>
   .page-header {
     background-image: url('Banner.png') !important;
-    background-size: 100% 100% !important;
+    background-size: contain !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
-    min-height: 200px !important;
-    padding: 2rem 1rem !important;
+    background-color: #021323 !important;
+    min-height: 25vw !important;
+    padding: 0 !important;
   }
   
   .project-name,
