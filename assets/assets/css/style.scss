@@ -2,14 +2,6 @@
 ---
 @import "{{ site.theme }}";
 
-.page-header {
-  height: 800px !important;
-  background-image: url('../../assets/Banner.png') !important;
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-}
-
 .project-name, 
 .project-tagline {
   display: none !important;
