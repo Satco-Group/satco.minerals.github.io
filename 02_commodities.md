@@ -22,84 +22,93 @@ title: Commodities | SATCO
     font-size: 16px;
   }
 
-  /* Grid Layout for 5 Groups */
-  .products-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 25px;
-    max-width: 1200px;
+  /* Horizontal Layout Container */
+  .rows-container {
+    max-width: 1000px;
     margin: 0 auto 50px auto;
     padding: 0 20px;
   }
 
-  /* Card Style */
-  .product-card {
+  /* Horizontal Row Style */
+  .category-row {
+    display: flex;
     background: #fff;
     border: 1px solid #e2e8f0;
     border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+    overflow: hidden;
+  }
+  
+  /* Responsive wrap for smaller screens */
+  @media (max-width: 768px) {
+    .category-row {
+      flex-direction: column;
+    }
+    .row-sidebar {
+      width: 100% !important;
+      padding: 15px !important;
+    }
+  }
+
+  /* Left Sidebar of the Row */
+  .row-sidebar {
+    width: 25%;
+    background: #0d1b2a;
+    color: #fff;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-right: 3px solid #d4af37;
+  }
+  .row-sidebar .icon {
+    font-size: 1.8em;
+    margin-bottom: 8px;
+  }
+  .row-sidebar h3 {
+    color: #fff;
+    margin: 0;
+    font-size: 1.05em;
+    font-weight: bold;
+    line-height: 1.3;
+  }
+
+  /* Right Content Area (Products Grid) */
+  .row-products {
+    width: 75%;
     padding: 25px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
-  .product-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(13, 27, 42, 0.08);
-    border-color: #d4af37;
-  }
-
-  /* Card Header */
-  .card-header {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     gap: 10px;
-    border-bottom: 2px solid #f1f5f9;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-  }
-  .card-header .icon {
-    font-size: 1.5em;
-  }
-  .card-header h3 {
-    color: #0d1b2a;
-    margin: 0;
-    font-size: 1.2em;
-    font-weight: bold;
+    align-content: center;
+    background: #f8f9fa;
   }
 
-  /* Product List Styling */
-  .product-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  /* Product Tag Style */
+  .product-tag {
+    display: inline-block;
   }
-  .product-list li {
-    margin-bottom: 10px;
-    font-size: 14px;
-  }
-  .product-list a {
+  .product-tag a {
+    display: block;
+    background: #fff;
     color: #4a5568;
+    border: 1px solid #cbd5e1;
+    padding: 8px 16px;
+    border-radius: 20px;
     text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 6px 8px;
-    border-radius: 4px;
-    transition: all 0.2s;
+    font-size: 13.5px;
+    transition: all 0.2s ease;
+    font-weight: 500;
   }
-  .product-list a:hover {
+  .product-tag a:hover {
     color: #0d1b2a;
+    border-color: #d4af37;
     background: #fdfbf7;
-    font-weight: bold;
-    padding-left: 12px;
-  }
-  .product-list a::after {
-    content: "→";
-    color: #d4af37;
-    opacity: 0;
-    transition: opacity 0.2s;
-  }
-  .product-list a:hover::after {
-    opacity: 1;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(13, 27, 42, 0.08);
   }
 
   /* CTA Section */
@@ -109,7 +118,7 @@ title: Commodities | SATCO
     padding: 35px;
     border-radius: 8px;
     text-align: center;
-    max-width: 1160px;
+    max-width: 960px;
     margin: 40px auto;
     border: 1px solid #d4af37;
   }
@@ -120,92 +129,92 @@ title: Commodities | SATCO
   <p>SATCO is a premium global supplier of industrial minerals, clinker, and construction materials. Click on any product below to view detailed chemical compositions, technical specifications, and packing options.</p>
 </div>
 
-<div class="products-grid">
+<div class="rows-container">
 
-  <!-- CARD 1: CEMENT -->
-  <div class="product-card">
-    <div class="card-header">
+  <!-- ROW 1: CEMENT -->
+  <div class="category-row">
+    <div class="row-sidebar">
       <span class="icon">🏗️</span>
-      <h3>1. Cement Series</h3>
+      <h3>Cement Series</h3>
     </div>
-    <ul class="product-list">
-      <li><a href="#">OPC - Type 1</a></li>
-      <li><a href="#">OPC - Type 2</a></li>
-      <li><a href="#">OPC - Type 3</a></li>
-      <li><a href="#">OPC - Type 4</a></li>
-      <li><a href="#">OPC - Type 5</a></li>
-      <li><a href="#">White Portland Cement</a></li>
-      <li><a href="#">Oil Well Cement</a></li>
-      <li><a href="#">Portland Pozzolana (PPC)</a></li>
-      <li><a href="#">Special Pozzolanic Cement</a></li>
-      <li><a href="#">Composite & Blended Cement</a></li>
-      <li><a href="#">Portland Limestone Cement</a></li>
-      <li><a href="#">Masonry Cement</a></li>
-      <li><a href="#">High Blaine Cement</a></li>
-      <li><a href="#">Slag Cement</a></li>
-      <li><a href="#">Mixed Cement</a></li>
-      <li><a href="#">Advanced Composite Cement</a></li>
-    </ul>
+    <div class="row-products">
+      <div class="product-tag"><a href="#">OPC - Type 1</a></div>
+      <div class="product-tag"><a href="#">OPC - Type 2</a></div>
+      <div class="product-tag"><a href="#">OPC - Type 3</a></div>
+      <div class="product-tag"><a href="#">OPC - Type 4</a></div>
+      <div class="product-tag"><a href="#">OPC - Type 5</a></div>
+      <div class="product-tag"><a href="#">White Portland Cement</a></div>
+      <div class="product-tag"><a href="#">Oil Well Cement</a></div>
+      <div class="product-tag"><a href="#">Portland Pozzolana (PPC)</a></div>
+      <div class="product-tag"><a href="#">Special Pozzolanic Cement</a></div>
+      <div class="product-tag"><a href="#">Composite & Blended Cement</a></div>
+      <div class="product-tag"><a href="#">Portland Limestone Cement</a></div>
+      <div class="product-tag"><a href="#">Masonry Cement</a></div>
+      <div class="product-tag"><a href="#">High Blaine Cement</a></div>
+      <div class="product-tag"><a href="#">Slag Cement</a></div>
+      <div class="product-tag"><a href="#">Mixed Cement</a></div>
+      <div class="product-tag"><a href="#">Advanced Composite Cement</a></div>
+    </div>
   </div>
 
-  <!-- CARD 2: CLINKER -->
-  <div class="product-card">
-    <div class="card-header">
+  <!-- ROW 2: CLINKER -->
+  <div class="category-row">
+    <div class="row-sidebar">
       <span class="icon">🔥</span>
-      <h3>2. Portland Clinker</h3>
+      <h3>Portland Clinker</h3>
     </div>
-    <ul class="product-list">
-      <li><a href="#">OPC Clinker</a></li>
-      <li><a href="#">Low-Alkali Clinker</a></li>
-      <li><a href="#">SR Clinker</a></li>
-      <li><a href="#">HES Clinker</a></li>
-      <li><a href="#">LHC Clinker</a></li>
-    </ul>
+    <div class="row-products">
+      <div class="product-tag"><a href="#">OPC Clinker</a></div>
+      <div class="product-tag"><a href="#">Low-Alkali Clinker</a></div>
+      <div class="product-tag"><a href="#">SR Clinker</a></div>
+      <div class="product-tag"><a href="#">HES Clinker</a></div>
+      <div class="product-tag"><a href="#">LHC Clinker</a></div>
+    </div>
   </div>
 
-  <!-- CARD 3: GYPSUM -->
-  <div class="product-card">
-    <div class="card-header">
+  <!-- ROW 3: GYPSUM -->
+  <div class="category-row">
+    <div class="row-sidebar">
       <span class="icon">🏔️</span>
-      <h3>3. Gypsum Products</h3>
+      <h3>Gypsum Products</h3>
     </div>
-    <ul class="product-list">
-      <li><a href="#">Natural Gypsum Rock</a></li>
-      <li><a href="#">Gypsum Powder</a></li>
-    </ul>
+    <div class="row-products">
+      <div class="product-tag"><a href="#">Natural Gypsum Rock</a></div>
+      <div class="product-tag"><a href="#">Gypsum Powder</a></div>
+    </div>
   </div>
 
-  <!-- CARD 4: INDUSTRIAL MINERALS -->
-  <div class="product-card">
-    <div class="card-header">
+  <!-- ROW 4: INDUSTRIAL MINERALS -->
+  <div class="category-row">
+    <div class="row-sidebar">
       <span class="icon">💎</span>
-      <h3>4. Industrial Minerals</h3>
+      <h3>Industrial Minerals</h3>
     </div>
-    <ul class="product-list">
-      <li><a href="#">Limestone</a></li>
-      <li><a href="#">Calcium Carbonate</a></li>
-      <li><a href="#">Dolomite</a></li>
-      <li><a href="#">Bentonite</a></li>
-      <li><a href="#">Kaolin (China Clay)</a></li>
-      <li><a href="#">Barite</a></li>
-      <li><a href="#">Fluorspar</a></li>
-      <li><a href="#">Feldspar</a></li>
-      <li><a href="#">Potash</a></li>
-    </ul>
+    <div class="row-products">
+      <div class="product-tag"><a href="#">Limestone</a></div>
+      <div class="product-tag"><a href="#">Calcium Carbonate</a></div>
+      <div class="product-tag"><a href="#">Dolomite</a></div>
+      <div class="product-tag"><a href="#">Bentonite</a></div>
+      <div class="product-tag"><a href="#">Kaolin (China Clay)</a></div>
+      <div class="product-tag"><a href="#">Barite</a></div>
+      <div class="product-tag"><a href="#">Fluorspar</a></div>
+      <div class="product-tag"><a href="#">Feldspar</a></div>
+      <div class="product-tag"><a href="#">Potash</a></div>
+    </div>
   </div>
 
-  <!-- CARD 5: ECO-ADDITIVES & ENERGY -->
-  <div class="product-card">
-    <div class="card-header">
+  <!-- ROW 5: ECO-ADDITIVES & ENERGY -->
+  <div class="category-row">
+    <div class="row-sidebar">
       <span class="icon">⚡</span>
-      <h3>5. Eco-Additives & Energy</h3>
+      <h3>Eco-Additives & Energy</h3>
     </div>
-    <ul class="product-list">
-      <li><a href="/products/slag.html">Blast Furnace Slag (GGBFS)</a></li>
-      <li><a href="#">Microsilica (Silica Fume)</a></li>
-      <li><a href="#">Zeolite</a></li>
-      <li><a href="#">Coal (Steam & Metallurgical)</a></li>
-    </ul>
+    <div class="row-products">
+      <div class="product-tag"><a href="/products/slag.html">Blast Furnace Slag (GGBFS)</a></div>
+      <div class="product-tag"><a href="#">Microsilica (Silica Fume)</a></div>
+      <div class="product-tag"><a href="#">Zeolite</a></div>
+      <div class="product-tag"><a href="#">Coal (Steam & Metallurgical)</a></div>
+    </div>
   </div>
 
 </div>
