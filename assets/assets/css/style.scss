@@ -2,35 +2,40 @@
 ---
 @import "{{ site.theme }}";
 
-/* تنظیمات استایل صفحه و هدر */
-body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* جلوگیری از اسکرول افقی */
+/* تنظیمات پایه برای کل صفحه و جلوگیری از حاشیه */
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    overflow-x: hidden;
 }
 
+/* تنظیمات اختصاصی برای بنر (هدر) */
 .page-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%; /* عرض کامل */
-    height: 800px; /* ارتفاع ثابت */
-    background-image: url('../Banner.png') !important; /* فراخوانی بنر از CSS */
-    background-size: cover !important; /* تنظیم اندازه برای پوشش کامل */
-    background-position: center !important; /* موقعیت بنر در مرکز */
+    display: block;
+    width: 100% !important;
+    height: 800px !important; /* ارتفاع ثابت بنر */
+    background-image: url('../Banner.png') !important; /* آدرس دقیق فایل */
+    background-size: cover !important; /* پوشش کامل صفحه */
+    background-position: center center !important; /* فیکس شدن در مرکز */
     background-repeat: no-repeat !important; /* عدم تکرار تصویر */
-    margin: 0 !important; /* حذف حاشیه */
-    padding: 0 !important; /* حذف پدینگ */
+    background-color: #000 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    box-sizing: border-box;
 }
 
+/* مخفی کردن عناصر پیش‌فرض تم که مانع کار هستند */
 .project-name,
-.project-tagline {
-    display: none !important; /* مخفی کردن متن های پیش فرض */
+.project-tagline,
+.btn {
+    display: none !important;
 }
 
-/* تنظیمات برای ریسپانسیو شدن صحیح */
+/* ریسپانسیو برای موبایل (ارتفاع کمتر) */
 @media screen and (max-width: 768px) {
     .page-header {
-        height: 400px; /* کاهش ارتفاع در موبایل برای نمایش بهتر */
+        height: 400px !important;
     }
 }
