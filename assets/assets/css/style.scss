@@ -2,33 +2,68 @@
 ---
 @import "{{ site.theme }}";
 
-/* تنظیمات پایه برای جلوگیری از حاشیه */
 body {
     margin: 0 !important;
     padding: 0 !important;
     width: 100% !important;
-    font-family: Tahoma, Arial, sans-serif; /* اضافه کردن فونت‌های استاندارد فارسی */
+    font-family: Tahoma, Arial, sans-serif;
+    background-color: #fcfcfc;
 }
 
-/* مخفی کردن عناصر پیش‌فرض تم که مانع نمایش صحیح هستند */
-.page-header,
-.project-name,
-.project-tagline,
-.btn {
+.page-header, .project-name, .project-tagline, .btn {
     display: none !important;
 }
 
-/* تنظیمات برای محتوای اصلی */
-.main-content {
-    padding: 20px;
-    max-width: 1000px; /* تغییر از ۱۲۰۰ به ۱۰۰۰ برای خوانایی بهتر متن */
+/* استایل اختصاصی منوی بالای سایت */
+.top-nav {
+    background-color: #0b1726; /* رنگ سورمه‌ای تیره ست با بنر */
+    border-bottom: 2px solid #cca43b; /* خط طلایی باریک زیر منو */
+    padding: 12px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nav-container {
+    max-width: 1000px;
     margin: 0 auto;
-    line-height: 1.8; /* فاصله مناسب بین خطوط برای خوانایی بیشتر */
+    display: flex;
+    gap: 25px;
+    padding: 0 20px;
+}
+.nav-link {
+    color: #ffffff !important;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+.nav-link:hover {
+    color: #cca43b !important; /* وقتی ماوس بره روی منو، طلایی میشه */
 }
 
-/* تنظیمات ریسپانسیو برای بنر (مخصوص گوشی‌های موبایل) */
+/* تغییر رنگ سبز پیش‌فرض تم به رنگ‌های ست با بنر شما */
+h1, h2, h3, h4 {
+    color: #0b1726 !important; /* تغییر تیترها به سورمه‌ای */
+}
+a {
+    color: #cca43b; /* تغییر لینک‌های داخل متن به طلایی */
+}
+
+.main-content {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* تنظیمات مخصوص موبایل */
 @media (max-width: 768px) {
-    div[style*="height: 300px"] {
-        height: 180px !important; /* در گوشی موبایل، ارتفاع بنر کمتر می‌شود تا جالب‌تر دیده شود */
+    div[style*="height: 420px"] {
+        height: 200px !important;
+    }
+    .nav-container {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
     }
 }
