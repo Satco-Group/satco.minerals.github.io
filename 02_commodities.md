@@ -4,72 +4,20 @@ title: Commodities | SATCO
 ---
 
 <style>
-  /* استایل دسته‌بندی‌ها */
-  .section-header {
-    background: #0d1b2a;
-    color: #d4af37;
-    padding: 15px 30px;
-    margin: 50px 20px 20px 20px;
-    border-radius: 5px;
-    font-size: 1.5em;
-    border-left: 10px solid #d4af37;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-
-  /* گرید برای چیدمان کیسه‌ها */
-  .jumbo-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 30px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  /* طراحی گرافیکی جامبوبگ */
-  .jumbo-bag {
-    width: 220px;
-    height: 260px;
-    background: #fcfcfc;
-    border: 2px solid #b8b8b8;
-    border-radius: 15px 15px 5px 5px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 10px 10px 0px rgba(0,0,0,0.05);
-    text-decoration: none;
-    transition: 0.3s;
-    margin: 10px;
-  }
-
-  /* دسته‌های جامبوبگ */
-  .jumbo-bag::before {
-    content: "";
-    position: absolute;
-    top: -15px;
-    width: 80px;
-    height: 20px;
-    border: 4px solid #999;
-    border-radius: 10px 10px 0 0;
-  }
-
-  .jumbo-bag:hover {
-    transform: translateY(-10px);
-    border-color: #d4af37;
-    box-shadow: 10px 20px 20px rgba(0,0,0,0.1);
-  }
-
-  .jumbo-name {
-    font-weight: 800;
-    color: #0d1b2a;
-    text-align: center;
-    padding: 15px;
-    font-size: 0.9em;
-  }
+  .section-header { background: #0d1b2a; color: #d4af37; padding: 15px 30px; margin: 50px 20px 20px 20px; border-radius: 5px; font-size: 1.5em; border-left: 10px solid #d4af37; font-weight: bold; text-transform: uppercase; }
+  .jumbo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 30px; padding: 20px; max-width: 1200px; margin: 0 auto; }
+  .jumbo-bag { width: 220px; height: 260px; background: #fcfcfc; border: 2px solid #b8b8b8; border-radius: 15px 15px 5px 5px; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; box-shadow: 10px 10px 0px rgba(0,0,0,0.05); text-decoration: none; transition: 0.3s; margin: 10px; }
+  .jumbo-bag::before { content: ""; position: absolute; top: -15px; width: 80px; height: 20px; border: 4px solid #999; border-radius: 10px 10px 0 0; }
+  .jumbo-bag:hover { transform: translateY(-10px); border-color: #d4af37; box-shadow: 10px 20px 20px rgba(0,0,0,0.1); }
+  .jumbo-name { font-weight: 800; color: #0d1b2a; text-align: center; padding: 15px; font-size: 0.9em; }
 </style>
+
+<!-- GYPSUM (اصلاح شده) -->
+<div class="section-header">Gypsum Products</div>
+<div class="jumbo-grid">
+  <a href="/products/gypsum-mineral/" class="jumbo-bag"><div class="jumbo-name">Natural Gypsum Rock</div></a>
+  <a href="/products/gypsum-powder/" class="jumbo-bag"><div class="jumbo-name">Gypsum Powder</div></a>
+</div>
 
 <!-- CEMENT SERIES -->
 <div class="section-header">Cement Series</div>
@@ -102,13 +50,6 @@ title: Commodities | SATCO
   <a href="#" class="jumbo-bag"><div class="jumbo-name">LHC Clinker</div></a>
 </div>
 
-<!-- GYPSUM -->
-<div class="section-header">Gypsum Products</div>
-<div class="jumbo-grid">
-  <a href="#" class="jumbo-bag"><div class="jumbo-name">Natural Gypsum Rock</div></a>
-  <a href="#" class="jumbo-bag"><div class="jumbo-name">Gypsum Powder</div></a>
-</div>
-
 <!-- INDUSTRIAL MINERALS -->
 <div class="section-header">Industrial Minerals</div>
 <div class="jumbo-grid">
@@ -123,7 +64,7 @@ title: Commodities | SATCO
   <a href="#" class="jumbo-bag"><div class="jumbo-name">Potash</div></a>
 </div>
 
-<!-- ECO-ADDITIVES -->
+<!-- ECO-ADDITIVES & ENERGY -->
 <div class="section-header">Eco-Additives & Energy</div>
 <div class="jumbo-grid">
   <a href="/products/slag.html" class="jumbo-bag"><div class="jumbo-name">Blast Furnace Slag</div></a>
