@@ -3,14 +3,13 @@
 @import "{{ site.theme }}";
 
 .page-header {
-  height: 800px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  height: 800px !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-name, 
