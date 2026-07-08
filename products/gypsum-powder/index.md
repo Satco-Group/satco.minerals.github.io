@@ -3,6 +3,12 @@ layout: default
 title: Gypsum Powder | SATCO
 ---
 
+<style>
+  table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+  th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+  th { background-color: #f4f4f4; }
+</style>
+
 # Gypsum Powder (Plaster of Paris)
 
 Gypsum powder, produced through the calcination of high-quality gypsum rock, is a fundamental material in the construction and manufacturing industries. Known for its quick setting time and exceptional workability, it is essential for finishing works and specialized casting applications.
