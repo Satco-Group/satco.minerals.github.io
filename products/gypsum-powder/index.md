@@ -28,9 +28,13 @@ Gypsum powder, produced through the calcination of high-quality gypsum rock, is 
 
 ## Packaging
 
+At SATCO, we provide flexible packaging solutions designed to meet the logistical requirements of any construction site or export destination, ensuring product integrity during transport.
+
 * **Standard:** Supplied in 25kg or 50kg Paper/PP Bags to ensure protection against moisture and provide ease of handling.
+* **1.5-ton Jumbo Bags (Packaged 50 kg Bags):** Our specialized export solution, containing 30 units of 50 kg PP bags.
 
 ## Quality Compliance & Standards
+
 Complies with ASTM C28 (Standard Specification for Gypsum Plasters) and ISO 15557.
 
 ## Typical Chemical Analysis
