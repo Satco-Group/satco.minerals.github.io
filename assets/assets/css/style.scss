@@ -2,29 +2,24 @@
 ---
 @import "{{ site.theme }}";
 
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
+/* تنظیمات پایه برای جلوگیری از حاشیه */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
 }
 
-.site-header {
-    width: 100%;
-    height: 800px;
-    background-image: url('../Banner.png') !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-}
-
-.page-header, .project-name, .project-tagline, .btn {
+/* مخفی کردن عناصر پیش‌فرض تم که مانع نمایش صحیح هستند */
+.page-header,
+.project-name,
+.project-tagline,
+.btn {
     display: none !important;
 }
 
-@media screen and (max-width: 768px) {
-    .site-header {
-        height: 300px;
-    }
+/* تنظیمات برای محتوای اصلی */
+.main-content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
