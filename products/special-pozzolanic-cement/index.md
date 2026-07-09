@@ -79,7 +79,7 @@ title: Special Pozzolanic Cement | SATCO
     <tr><td>Retained on 90µ Sieve (%)</td><td>1.0</td><td>-</td></tr>
   </table>
 
-  <h2>3. COMPRESSIVE STRENGTH ()</h2>
+  <h2>3. COMPRESSIVE STRENGTH (kg/cm²)</h2>
   <table>
     <tr><th>AGE</th><th>RESULT</th><th>STANDARD LIMITATION (EN 197-1)</th></tr>
     <tr><td>3 Days</td><td>210</td><td>-</td></tr>
