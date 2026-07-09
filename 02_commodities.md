@@ -12,14 +12,12 @@ title: Commodities | SATCO
   .jumbo-name { font-weight: 800; color: #0d1b2a; text-align: center; padding: 15px; font-size: 0.9em; }
 </style>
 
-<!-- GYPSUM (اصلاح شده) -->
 <div class="section-header">Gypsum Products</div>
 <div class="jumbo-grid">
   <a href="/products/gypsum-mineral/" class="jumbo-bag"><div class="jumbo-name">Natural Gypsum Rock</div></a>
   <a href="/products/gypsum-powder/" class="jumbo-bag"><div class="jumbo-name">Gypsum Powder</div></a>
 </div>
 
-<!-- CEMENT SERIES -->
 <div class="section-header">Cement Series</div>
 <div class="jumbo-grid">
   <a href="#" class="jumbo-bag"><div class="jumbo-name">OPC - Type 1</div></a>
@@ -40,17 +38,15 @@ title: Commodities | SATCO
   <a href="#" class="jumbo-bag"><div class="jumbo-name">Advanced Composite Cement</div></a>
 </div>
 
-<!-- PORTLAND CLINKER -->
 <div class="section-header">Portland Clinker</div>
 <div class="jumbo-grid">
-  <a href="#" class="jumbo-bag"><div class="jumbo-name">OPC Clinker</div></a>
+  <a href="/products/OPC-Clinker/" class="jumbo-bag"><div class="jumbo-name">OPC Clinker</div></a>
   <a href="#" class="jumbo-bag"><div class="jumbo-name">Low-Alkali Clinker</div></a>
   <a href="#" class="jumbo-bag"><div class="jumbo-name">SR Clinker</div></a>
   <a href="#" class="jumbo-bag"><div class="jumbo-name">HES Clinker</div></a>
   <a href="#" class="jumbo-bag"><div class="jumbo-name">LHC Clinker</div></a>
 </div>
 
-<!-- INDUSTRIAL MINERALS -->
 <div class="section-header">Industrial Minerals</div>
 <div class="jumbo-grid">
   <a href="#" class="jumbo-bag"><div class="jumbo-name">Limestone</div></a>
@@ -64,7 +60,6 @@ title: Commodities | SATCO
   <a href="#" class="jumbo-bag"><div class="jumbo-name">Potash</div></a>
 </div>
 
-<!-- ECO-ADDITIVES & ENERGY -->
 <div class="section-header">Eco-Additives & Energy</div>
 <div class="jumbo-grid">
   <a href="/products/slag.html" class="jumbo-bag"><div class="jumbo-name">Blast Furnace Slag</div></a>
