@@ -8,12 +8,12 @@ title: SR Clinker (Sulfate-Resistant) | SATCO
     background: #ffffff; 
     padding: 30px; 
     border-radius: 12px; 
-    border-left: 8px solid #0d1b2a; 
+    border-left: 8px solid #d4af37; /* رنگ طلایی */
     margin-bottom: 30px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   }
   h1 { color: #0d1b2a; margin-top: 0; }
-  h2 { color: #0d1b2a; border-bottom: 2px solid #0d1b2a; padding-bottom: 5px; margin-top: 25px; }
+  h2 { color: #d4af37; border-bottom: 2px solid #d4af37; padding-bottom: 5px; margin-top: 25px; }
   ul { line-height: 1.8; color: #333; }
   li { margin-bottom: 10px; }
   
