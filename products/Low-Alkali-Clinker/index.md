@@ -1,53 +1,84 @@
 ---
 layout: default
-title: SATCO | Global Commodities & Supply Chain Partner
+title: Low-Alkali Clinker | SATCO
 ---
 
-# SATCO
+<style>
+  .content-card { 
+    background: #ffffff; 
+    padding: 30px; 
+    border-radius: 12px; 
+    border-left: 8px solid #d4af37; 
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  h1 { color: #0d1b2a; margin-top: 0; }
+  h2 { color: #0d1b2a; border-bottom: 2px solid #d4af37; padding-bottom: 5px; margin-top: 25px; }
+  ul { line-height: 1.8; }
+  li { margin-bottom: 10px; }
+  
+  table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+  th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+  th { background-color: #0d1b2a; color: #ffffff; }
+  tr:nth-child(even) { background-color: #f9f9f9; }
+</style>
 
-## Your Trusted Global Commodities & Supply Chain Partner
+<div class="content-card">
+  <h1>Low-Alkali Clinker</h1>
+  <p>Low-Alkali Clinker is produced under strict chemical constraints to limit the total content of sodium and potassium oxides, preventing the Alkali-Silica Reaction (ASR) which causes concrete expansion and degradation.</p>
 
-Expertise in International Logistics, Commodity Sourcing, and Strategic Consulting. We deliver reliable commodities directly to your destination with professional logistics management.
+  <h2>Key Advantages</h2>
+  <ul>
+    <li><b>ASR Mitigation:</b> Eliminates the risk of expansive reactions between cement and reactive aggregates.</li>
+    <li><b>Structural Longevity:</b> Guarantees extended service life for high-stakes national projects.</li>
+    <li><b>Environmental Compatibility:</b> Reliable performance with various aggregate types.</li>
+  </ul>
 
-<a href="/05_contact.html" style="display: inline-block; background-color: #d4af37; color: #0d1b2a; padding: 10px 20px; text-decoration: none; font-weight: bold; border-radius: 4px; margin-top: 10px; transition: background 0.3s;" onmouseover="this.style.backgroundColor='#b8952e'" onmouseout="this.style.backgroundColor='#d4af37'">Request a Quote</a>
+  <h2>Primary Applications</h2>
+  <ul>
+    <li><b>Strategic Infrastructure:</b> Highways, long-span bridges, and dams.</li>
+    <li><b>High-Durability Projects:</b> Infrastructure designed for multi-decade service life.</li>
+  </ul>
 
----
+  <h2>Classification & Standards</h2>
+  <ul>
+    <li><b>ASTM Standard:</b> Compliant with ASTM C150 requirements (Optional alkali limitation).</li>
+    <li><b>Quality Class:</b> Premium Low-Alkali Industrial Grade.</li>
+    <li><b>Chemical Profile:</b> Strict limitation on Na₂O eq (Total alkali content).</li>
+  </ul>
 
-### Our Core Products
-* **Cement:** High-strength, durable options for global infrastructure.
-* **Clinker:** Premium quality clinker, the backbone of modern cement production.
-* **Gypsum & Gypsum Powder:** Purity and consistency for diverse industrial needs.
-* **Dolomite & Calcium Carbonate:** High-grade industrial minerals.
-* **Microsilica / Silica Fume:** Advanced concrete performance enhancers.
+  <h2>Packaging & Logistics</h2>
+  <p>At SATCO, we provide flexible packaging solutions designed to meet the logistical requirements of any construction site or export destination, ensuring product integrity during transport.</p>
+  <ul>
+    <li><b>Bulk Shipment:</b> Available in bulk via marine vessels or railcars.</li>
+    <li><b>Big Bags:</b> 1.5 MT to 2 MT jumbo bags for specialized project requirements.</li>
+    <li><b>Storage:</b> Stored in moisture-controlled silos to maintain strict chemical composition.</li>
+  </ul>
 
----
+  <h2>Low-Alkali Clinker Analysis</h2>
+  <table>
+    <tr><th>Parameter</th><th>Result Obtained</th></tr>
+    <tr><td>Silicon Dioxide (SiO₂)</td><td>22.32%</td></tr>
+    <tr><td>Aluminium Oxide (Al₂O₃)</td><td>4.86%</td></tr>
+    <tr><td>Ferric Oxide (Fe₂O₃)</td><td>3.96%</td></tr>
+    <tr><td>Calcium Oxide (CaO)</td><td>66.18%</td></tr>
+    <tr><td>Magnesium Oxide (MgO)</td><td>1.93%</td></tr>
+    <tr><td>Sulfur Trioxide (SO₃)</td><td>0.37%</td></tr>
+    <tr><td>Potassium Oxide (K₂O)</td><td>0.57%</td></tr>
+    <tr><td>Sodium Oxide (Na₂O)</td><td>0.22%</td></tr>
+    <tr><td>Loss on Ignition (L.O.I)</td><td>0.12%</td></tr>
+    <tr><td>Insoluble Residue (I.R)</td><td>0.25%</td></tr>
+  </table>
 
-### 🚢 Recent Shipments & Operations
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 20px;">
-
-  <!-- باکس اول -->
-  <div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); background: #fff;">
-    <span style="background: #0d1b2a; color: #fff; padding: 3px 8px; font-size: 11px; font-weight: bold; border-radius: 3px;">OVERLAND</span>
-    <h4 style="margin: 10px 0 5px 0; color: #0d1b2a;">Cross-Border Mineral Fleet</h4>
-    <p style="font-size: 13px; margin: 0; color: #555;"><strong>Commodity:</strong> Bulk Cement & Gypsum<br><strong>Status:</strong> Successfully Delivered</p>
-  </div>
-
-  <!-- باکس دوم -->
-  <div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); background: #fff;">
-    <span style="background: #0d1b2a; color: #fff; padding: 3px 8px; font-size: 11px; font-weight: bold; border-radius: 3px;">MARITIME</span>
-    <h4 style="margin: 10px 0 5px 0; color: #0d1b2a;">Bulk Vessel Cargo Loading</h4>
-    <p style="font-size: 13px; margin: 0; color: #555;"><strong>Commodity:</strong> Premium Clinker<br><strong>Status:</strong> Dispatched & In Transit</p>
-  </div>
-
-  <!-- باکس سوم -->
-  <div style="border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); background: #fff;">
-    <span style="background: #d4af37; color: #0d1b2a; padding: 3px 8px; font-size: 11px; font-weight: bold; border-radius: 3px;">LOGISTICS</span>
-    <h4 style="margin: 10px 0 5px 0; color: #0d1b2a;">Supply Chain Optimization</h4>
-    <p style="font-size: 13px; margin: 0; color: #555;"><strong>Route:</strong> Multi-Modal Regional Transit<br><strong>Efficiency:</strong> 100% On-Time Delivery</p>
-  </div>
-
-</div>
-
-<div style="text-align: center; margin-top: 25px;">
-  <a href="/04_our_shipments.html" style="color: #0d1b2a; font-weight: bold; text-decoration: none; font-size: 14px;">View All Shipments &rarr;</a>
+  <h2>Technical Moduli & Mineralogical Composition</h2>
+  <ul>
+    <li><b>Total Alkali (Na₂O eq):</b> 0.595% (Compliant: < 0.60%)</li>
+    <li><b>Lime Saturation Factor (L.S.F):</b> 93.5%</li>
+    <li><b>Silica Modulus (SIM):</b> 2.53</li>
+    <li><b>Alumina Modulus (AlM):</b> 1.23</li>
+    <li><b>Tricalcium Silicate (C₃S):</b> 61.4%</li>
+    <li><b>Dicalcium Silicate (C₂S):</b> 17.8%</li>
+    <li><b>Tricalcium Aluminate (C₃A):</b> 6.2%</li>
+    <li><b>Tetracalcium Aluminoferrite (C₄AF):</b> 12.0%</li>
+  </ul>
 </div>
