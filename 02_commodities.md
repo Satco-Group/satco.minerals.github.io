@@ -4,6 +4,7 @@ title: Commodities | SATCO
 ---
 
 <style>
+  /* تنظیمات کلی باکس‌های بزرگ */
   .commodities-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -12,21 +13,24 @@ title: Commodities | SATCO
     max-width: 1200px;
     margin: 0 auto;
   }
-  /* استایل باکسِ گروه */
+
+  /* استایل هر باکسِ اصلی (سرمه‌ای با حاشیه طلایی) */
   .category-box {
     background: #0d1b2a;
     border: 3px solid #d4af37;
-    border-radius: 12px;
+    border-radius: 15px;
     padding: 20px;
     text-align: center;
     color: #d4af37;
     font-weight: 800;
     text-transform: uppercase;
-    font-size: 1.1em;
+    font-size: 1.2em;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
+  /* لیستِ محصولات داخل باکس */
   .product-list {
     display: flex;
     flex-wrap: wrap;
@@ -34,7 +38,8 @@ title: Commodities | SATCO
     gap: 10px;
     margin-top: 15px;
   }
-  /* استایل باکسِ محصول (ست با گروه) */
+
+  /* استایلِ دکمه‌های کوچکِ محصولات */
   .product-item {
     background: #0d1b2a;
     border: 2px solid #d4af37;
@@ -48,11 +53,11 @@ title: Commodities | SATCO
   .product-item:hover {
     background: #d4af37;
     color: #0d1b2a;
-    border-color: #ffffff;
   }
 </style>
 
 <div class="commodities-container">
+  <!-- دسته اول -->
   <div class="category-box">BASE CEMENT SERIES
     <div class="product-list">
       <a href="/products/opc-type1/" class="product-item">Type 1</a>
@@ -63,6 +68,7 @@ title: Commodities | SATCO
     </div>
   </div>
 
+  <!-- دسته دوم -->
   <div class="category-box">PORTLAND CLINKER
     <div class="product-list">
       <a href="/products/OPC-Clinker/" class="product-item">OPC</a>
@@ -73,6 +79,7 @@ title: Commodities | SATCO
     </div>
   </div>
 
+  <!-- دسته سوم -->
   <div class="category-box">GYPSUM PRODUCTS
     <div class="product-list">
       <a href="/products/gypsum-mineral/" class="product-item">Rock</a>
@@ -80,6 +87,7 @@ title: Commodities | SATCO
     </div>
   </div>
 
+  <!-- دسته چهارم -->
   <div class="category-box">SPECIALIZED CEMENT
     <div class="product-list">
       <a href="/products/white-portland-cement/" class="product-item">White</a>
@@ -96,6 +104,7 @@ title: Commodities | SATCO
     </div>
   </div>
 
+  <!-- دسته پنجم -->
   <div class="category-box">INDUSTRIAL MINERALS
     <div class="product-list">
       <a href="/products/limestone/" class="product-item">Limestone</a>
@@ -110,6 +119,7 @@ title: Commodities | SATCO
     </div>
   </div>
 
+  <!-- دسته ششم -->
   <div class="category-box">ECO-ADDITIVES & ENERGY
     <div class="product-list">
       <a href="/products/blast-furnace-slag/" class="product-item">Slag</a>
