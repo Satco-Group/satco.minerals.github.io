@@ -7,16 +7,16 @@
   <style>
     body { background-color: #f4f4f4; margin: 0; padding: 0; font-family: sans-serif; }
     
-    /* بنر کاملاً مستقل در بالای صفحه */
+    /* بنر مستقل در بالای صفحه */
     .hero-banner { 
       width: 100%; 
       height: 350px; 
-      background-image: url('{{ '/Banner.png' | relative_url }}'); 
+      background-image: url('{{ '/assets/banner.png' | relative_url }}'); 
       background-size: cover; 
       background-position: center; 
     }
     
-    /* منو بلافاصله زیر بنر */
+    /* منو زیر بنر */
     .satco-nav { 
       background: #0d1b2a; 
       padding: 15px 0; 
@@ -38,16 +38,14 @@
 </head>
 <body>
 
-  <!-- بنر در بالاترین جای ممکن -->
   <div class="hero-banner"></div>
 
-  <!-- منو زیر بنر -->
   <nav class="satco-nav">
     <a href="{{ '/' | relative_url }}">HOME</a>
     <a href="{{ '/02_commodities.html' | relative_url }}">COMMODITIES</a>
     <a href="{{ '/03_market_insights.html' | relative_url }}">MARKET INSIGHTS</a>
     <a href="{{ '/04_our_shipments.html' | relative_url }}">OUR SHIPMENTS</a>
-    <a href="{{ '/05_contact.html' | perfect_url }}">CONTACT US</a>
+    <a href="{{ '/05_contact.html' | relative_url }}">CONTACT US</a>
   </nav>
 
   <main class="main-content">
