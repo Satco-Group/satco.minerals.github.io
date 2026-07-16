@@ -8,12 +8,21 @@ title: Our Shipments | SATCO
     background: #ffffff;
     border-left: 5px solid #d4af37;
     border-radius: 8px;
-    padding: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.08);
     transition: transform 0.3s ease;
+    overflow: hidden; /* این باعث می‌شود عکس لبه‌های باکس را مرتب کند */
   }
   .shipment-card:hover { transform: translateY(-5px); }
+  
+  .shipment-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; /* عکس بدون کشیدگی، کادر را پر می‌کند */
+    display: block;
+  }
+
+  .content-padding { padding: 30px; }
   
   .badge {
     background: #0d1b2a;
@@ -43,53 +52,58 @@ title: Our Shipments | SATCO
 
 # Our Shipments & Operations
 
-This section highlights our operational capacity and commitment to timely, reliable supply chain management. Below are key examples of our bulk commodity execution.
+This section highlights our operational capacity and commitment to timely, reliable supply chain management.
 
 <br>
 
 <!-- پروژه سومالی -->
 <div class="shipment-card">
-  <span class="badge">Export Excellence</span>
-  <h2 style="color: #0d1b2a; margin: 15px 0;">Bagged Cement Export: Specialized Packaging Strategy</h2>
-  <p style="color: #444; line-height: 1.6;">
-    Successfully managed the export of 10,000 MT of Type 2 Cement to the Somali market. We utilized a specialized packaging strategy, loading 50kg bags into 1.5-ton Jumbo bags, ensuring maximum cargo protection during maritime transport. This operation demonstrated our operational efficiency, maintaining a consistent loading rate of 3,000 MT per day.
-  </p>
-
-  <div class="stats-grid">
-    <div class="stat-item"><div class="stat-value">10,000 MT</div><div class="stat-label">Total Volume</div></div>
-    <div class="stat-item"><div class="stat-value">3,000 MT/day</div><div class="stat-label">Loading Rate</div></div>
-    <div class="stat-item"><div class="stat-value">Somalia</div><div class="stat-label">Destination</div></div>
+  <img src="assets/somali.png" class="shipment-img" alt="Cement export to Somalia">
+  <div class="content-padding">
+    <span class="badge">Export Excellence</span>
+    <h2 style="color: #0d1b2a; margin: 15px 0;">Bagged Cement Export: Somalia Market</h2>
+    <p style="color: #444; line-height: 1.6;">
+      Successfully managed the export of 10,000 MT of Type 2 Cement. We utilized a specialized packaging strategy, loading 50kg bags into 1.5-ton Jumbo bags, ensuring maximum cargo protection during maritime transport. This operation demonstrated our operational efficiency, maintaining a consistent loading rate of 3,000 MT per day.
+    </p>
+    <div class="stats-grid">
+      <div class="stat-item"><div class="stat-value">10,000 MT</div><div class="stat-label">Total Volume</div></div>
+      <div class="stat-item"><div class="stat-value">3,000 MT/day</div><div class="stat-label">Loading Rate</div></div>
+      <div class="stat-item"><div class="stat-value">Somalia</div><div class="stat-label">Destination</div></div>
+    </div>
   </div>
 </div>
 
 <!-- پروژه کویت -->
 <div class="shipment-card">
-  <span class="badge">Strategic Operation</span>
-  <h2 style="color: #0d1b2a; margin: 15px 0;">Large-Scale Bulk Cement Supply: Kuwait Market</h2>
-  <p style="color: #444; line-height: 1.6;">
-    Successfully fulfilled a 30,000 MT shipment of Type 1 Bulk Cement for the Kuwaiti construction sector. Our operational focus centered on maintaining an optimized loading rate of 5,000 MT per 24 hours, ensuring critical project timelines were met with precision and minimizing vessel turnaround time at the port.
-  </p>
-
-  <div class="stats-grid">
-    <div class="stat-item"><div class="stat-value">30,000 MT</div><div class="stat-label">Total Volume</div></div>
-    <div class="stat-item"><div class="stat-value">5,000 MT/24h</div><div class="stat-label">Loading Rate</div></div>
-    <div class="stat-item"><div class="stat-value">Kuwait</div><div class="stat-label">Destination</div></div>
+  <img src="assets/kuwait.png" class="shipment-img" alt="Bulk Cement to Kuwait">
+  <div class="content-padding">
+    <span class="badge">Strategic Operation</span>
+    <h2 style="color: #0d1b2a; margin: 15px 0;">Large-Scale Bulk Cement: Kuwait Market</h2>
+    <p style="color: #444; line-height: 1.6;">
+      Successfully fulfilled a 30,000 MT shipment of Type 1 Bulk Cement for the Kuwaiti construction sector. Our operational focus centered on maintaining an optimized loading rate of 5,000 MT per 24 hours, ensuring critical project timelines were met with precision and minimizing vessel turnaround time at the port.
+    </p>
+    <div class="stats-grid">
+      <div class="stat-item"><div class="stat-value">30,000 MT</div><div class="stat-label">Total Volume</div></div>
+      <div class="stat-item"><div class="stat-value">5,000 MT/24h</div><div class="stat-label">Loading Rate</div></div>
+      <div class="stat-item"><div class="stat-value">Kuwait</div><div class="stat-label">Destination</div></div>
+    </div>
   </div>
 </div>
 
-<!-- پروژه کلینکر -->
+<!-- پروژه بنگلادش -->
 <div class="shipment-card">
-  <span class="badge">Success Story</span>
-  <h2 style="color: #0d1b2a; margin: 15px 0;">Bulk Clinker Export: Operational Excellence</h2>
-  <p style="color: #444; line-height: 1.6;">
-    Successfully managed the maritime export of 45,000 MT of Type 5 Clinker. 
-    This operation demonstrated our ability to coordinate high-volume logistics with extreme precision, achieving vessel turnaround in under 5 days.
-  </p>
-
-  <div class="stats-grid">
-    <div class="stat-item"><div class="stat-value">45,000 MT</div><div class="stat-label">Volume</div></div>
-    <div class="stat-item"><div class="stat-value">4.5 Days</div><div class="stat-label">Loading Time</div></div>
-    <div class="stat-item"><div class="stat-value">Bulk</div><div class="stat-label">Carrier Type</div></div>
+  <img src="assets/bangladesh.png" class="shipment-img" alt="Clinker Export to Bangladesh">
+  <div class="content-padding">
+    <span class="badge">Success Story</span>
+    <h2 style="color: #0d1b2a; margin: 15px 0;">Bulk Clinker Export: Bangladesh Market</h2>
+    <p style="color: #444; line-height: 1.6;">
+      Successfully managed the maritime export of 45,000 MT of Type 5 Clinker. This operation demonstrated our ability to coordinate high-volume logistics with extreme precision, achieving vessel turnaround in under 5 days.
+    </p>
+    <div class="stats-grid">
+      <div class="stat-item"><div class="stat-value">45,000 MT</div><div class="stat-label">Volume</div></div>
+      <div class="stat-item"><div class="stat-value">4.5 Days</div><div class="stat-label">Loading Time</div></div>
+      <div class="stat-item"><div class="stat-value">Bulk</div><div class="stat-label">Carrier Type</div></div>
+    </div>
   </div>
 </div>
 
